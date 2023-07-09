@@ -1,0 +1,56 @@
+Dao(Repository) - class that deal with DB
+REST = representation state of transfer - object return -
+POST- Used to create new data- creating resource
+GET - used for getting existing data when u browsing internet- getting data from server
+      by default all request are guest request, fetching resource
+PUT - Edit or update existing data/resource
+DELETE - used to delete data
+Header- content-Type  -mention language(i.e json/xml)in which you want to send post request.
+Header- Accept - it means in which language(i.e json/xml) you want output using get method
+@Path () - specify path to invoke that particular method
+@Produces()- usedto print output formate like in json or xml etc
+@Consumes -i.e. specify which format it will accept data from client end in post method(json/xml)
+Learned - Resources - how to fetch it
+what to use POST or GET ?- it totally depeneds on server (API Documentation)
+Need to study retrieve obj from DB and send to REST API URL
+
+
+
+
+
+
+
+
+
+
+1)Error -java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+       Inside Aliend resources...REST API...getAlien method called
+       java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "this.con" is null
+	   
+Solution -
+Right click your project folder and open up Properties.
+From the right panel, select Java Build Path then go to Libraries tab.
+Select Add External JARs to import the mysql driver.
+From the right panel, select Deployment Assembly.
+Select Add..., then select Java Build Path Entries and click Next.
+You should see the sql driver on the list. Select it and click first.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------
+create jersey project in eclipse
