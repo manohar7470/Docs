@@ -1,0 +1,151 @@
+learn terminal commands , bufferReader vs scanner, URL class in java, Integer.parseInt method(used to convert normal string to int),
+string/array -length/size
+?
+Object class in Java?
+?
+PTR4 : BufferedReader is a bit faster as compared to scanner because scanner does parsing of input data and BufferedReader simply reads sequence of characters.
+ctrl+shift+del = use to delete cache of explore- u can use this command and delete cache in open window
+diif block like static,final ,nextLine,next,length/size in array/string,
+sql -cursor, view vs table, store procedure,trigger 
+
+exception handling , collection , threadiling, list , vector, arraylist. array, all sorting algo,set and hashset,inheritence, copy constructor, 
+how many ways we can created object - https://www.geeksforgeeks.org/different-ways-create-objects-java/
+Map Characteriestics - https://www.geeksforgeeks.org/map-interface-java-examples/
+
+Interface - is a contract and any class that implement that interface it become compulsory for that class to implement the methods that are defined in that interface.
+            An interface is a method that does not have bodies(we just define function).An interface only has abstract methods.
+			public interface className{}, public classAName implement ClassB{}
+Abstract class-  It can only be extended , u can't create instance of it.It only meant to be parent of other class.
+               - u can use it like AbstractClass a= new childClass(); in child class and only call with this abstract method only not other method of child class.
+
+PTR 1 - A class can only inherit one class but it can implement more than one interface
+PTR 2-Some implementations allow null key and null values like the HashMap and LinkedHashMap, but some do not like the TreeMap.
+      there should be only one null key object and there can be any number of null values.
+PTR 3 - n Java, types with generic type parameters, such as HashMap, only accept types that inherit from Object. long does not inherit from Object, so you can't use it with HashMap. You can however use Long, which is a boxed version of long. (HashMap<Long,Long>m = new HashMap<>())is correct
+PTR 4 - String s= 5+"";-(s will be treated as string and it work as expected) But ->String s=5 (will throw error as 5 is not a string)
+=============================================+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++======================================================= 
+ === Java HashMap method map.put(a1[i],map.getOrDefault(a1[i],0)+1);~similar to~ m[a[i]]++ of c++. check map.getOrDefault(key, value) method==> see this problem in java  https://practice.geeksforgeeks.org/problems/array-subset-of-another-array2317/1?page=1&curated[]=1&sortBy=submissions
+		        char a[] = S1.toCharArray();char b[] = S2.toCharArray();Arrays.sort(a);Arrays.sort(b);Boolean result = Arrays.equals(a,b);if(result==true){return 1;
+ Arrays.sort(str1);Collections.sort(arrList);
+Arrays.sort() uses Dual-Pivot Quicksort for Primitive Arrays and MergeSort for sorting array of Objects.Collection.sort is used when you dealing with lists and arrays.sort is sued when dealing with arrays.
+diff btw (likedlist,queue,stack),Java queue,linklist,stack syntax
+
+
+
+All Libraries-
+Str.substring(startInd),Str.substring(st,end);
+HashSet<String> us = new HashSet<String>();Set<String> result = new HashSet<String>();
+ Queue<Node>q=new LinkedList<>();
+ sort array = Arrays.sort()
+ sort arraylist - Collections.sort()
+ sort arraylist in reverse - Collections.sort(list, Collections.reverseOrder());   
+ sort araay in reverse     -Arrays.sort(array, Collections.reverseOrder());
+ Arrays.asList(a) 
+ Integer.MAX_VALUE,Integer.MIN_VALUE ---(Not Math)
+ Array length- A.length ==There is no size() method available with the array
+ String length - S.length();
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===========================GFG PROBLEMS+=========================================================================================
+GFG Problems
+C++
+Vector -
+    v.push_back()
+Problems 	
+job sequence java  greedy
+Majority Element GFG
+subarray with given sum
+kadane's algo
+-NS--stock buy and sell/minimum platforms/the celebrity problem/trapping rain water prblm/
+leader in a element
+count 0 and 1
+pallindromic string/array
+sort arrays of 0 1 2 
+largest subarray with sum 0
+first and last occurrences of x in sorted array
+minimum no of jumps to reach the end of an array
+First element to occur k times
+leaders in a array   
+ Smallest subarray with sum greater than x 
+ Check if two strings are k-anagrams or not 
+ Missing number in array
+ Sort an array of 0s, 1s and 2s
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+============================###################Must Revise question##########################========================
+Do practice in eclipse for inheritence - know virtual function in java(there is no specific keyword for virtual)
+Tree - in/pre/post order, left/right view of binary tree,max height, queue(bfs,dfs),
+Inheritence A a= new B();
+How many ways u can create obj in java
+Always access character of string using charAt method not like s[i]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+************************************************************Web Dev**************************************************************************
+Learn Why we use this
+JS - client side scripting - Mind(how it work/behave app)-dynamic web app
+HTML - Must-Main Body - skelton for web application nd websites - input/text/forms
+CSS- Style/color - used to handle web presentation along with html
+PHP
