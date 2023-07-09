@@ -1,0 +1,149 @@
+learn basics of OEAm - changes into signature
+self sign certificate
+finesse work in httpsHHC  --POC disclaimer select list issue
+ctrl++ - used to increament the size of text/code in elcipse ide
+This means: "Do not allow barge-in." (Barge-in is when the caller can interrupt message play by entering a digit, causing the script to move to the next prompt.).
+HotEvent- error handling, at  any point of time press '9' for main menu,provide functionality to use any app/action over whole app u can use it.
+badfetch also come for those resource not accessible(like api not reachable)...not only for audio
+Nuance server used for TTS  in our project..it can be used for voice chat,biometrics,psswd.
+Vxml Gateway -
+PNST -
+How to connect RestAPI in IVR
+dialoge id - in each call dialoge id created and it keeps changing = call id on finess
+
+
+
+=======>>>>Refresh vxml cache : set http client cache stale
+
+
+======>>>>Finess Gadget deployment(c/app/finessFoldername/
+ do changes in js file then rename it by addint 10/11/ no. at end and then 
+ do same name change in xml file of same name(not whole) just above it
+  after that delete web.config file
+ now open Run and type command 'inetmgr' 
+ now here right click on PGLAB and stop and start it.
+ then double click on your finess gadget name where you done changes 
+ then double click on browsing directory and enable & disable it 
+ then relogin to finesse and test it
+ 
+4 platform are in cisco
+ucce -
+uccx - totally diff- dont have call studio- uccx script only u find
+finesse is common
+webex contact centre - cloud
+cisco-avaya-genesis ===>contact centre
+nice - providing soln to cloud based- not using java completely- combination of .net ,java, 
+
+how we can learn rest api integration with cisco -
+
+write java program  to call 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ #Customer Satisfaction  - good
+Internal customer satisfied. Successfully completed 2 production deployment of JHHC CAID and PDP Phase 2. Got the 2 appreciations mails for my task in 
+TMG IVR Project from my Manager. For JHHC CAID recieved appreciations mail from CIM Management team. Did not received any escalations after production 
+deployment. Solved many Tickets from Service Now and did Unit Testing of TMG IVR Projects independently. In last quarter did 3 production deployment 
+of MAPD Phase 1 , MAPD Phase 2 and CFM UUP OHP and got the appreciations mails from My Manager and Super Visor. 
+
+ #Quality of coding - need improvement
+ Delivered PDP Phase 2 and JHHC CAID project on Time and Budget, as per the baselined project plan. No defect after Post Deployment of all projects. No Slippage in Tasks. Done 100% Delivery of tasks as per the planned dates & cost with high quality. Did development and Unit testing as per the SDLC by preparing test cases before due date as per the plan. Prepared deployment documentation before due date for production deployment.  Also completed Agent Broker, JHHC COMM and Material Request development task that need to be deployed.
+ 
+ #SLA Adherence - good going on
+ Followed the policy of closing the tickets before due date as per the adherence to agreed SLA. There is no SLA missed case yet. I have closed 71 
+tickets till now and around 40 tickets were transferred to respective teams(Telecom , Facets) after providing the information related to IVR. There 
+were no defects , no missed tickets and no escalations reported after closing the tickets. Also, no defects was reopened. 
+ 
+ #Inovation index - required more effort
+ Contributed in the development of POC Disclaimer project by using ICM scripts and IVR application. Did the Unit testing by preparing the test cases 
+as per the SDLC . Also worked with Telecom team for POC Disclaimer's issue.
+ 
+ #CoE contribution
+  Contributed in "Genc Recruitment" process by taking the interview of Genc students. Received cheers points as awards from Human Resource.
+  
+ # T & C - certificate required
+ Participated and completed "Unified CVP Development and Scripting Part 1" training from Sunset Learning institute provided by Cognizant. Completed 
+"Collaboration Specialist Training" from CISCO provided by Cognizant. Completed JDBC course from Cognizant Learning. Certificate completion is in 
+progress.
+ 
+ #Operational - good
+ Following the working hour policy and maintaining a good "Average Time" in both TruTime and Time Sheet.It is always 100% or more than 100%.  HotEvent- error handling, at  any point of time press '9' for main menu,provide functionality to use any app/action over whole app u can use it.
+badfetch also come for those resource not accessible(like api not reachable)...not only for audio
+Nuance server used for TTS  in our project..it can be used for voice chat,biometrics,psswd.
+Vxml Gateway -
+PNST -
+How to connect RestAPI in IVR
+dialoge id - in each call dialoge id created and it keeps changing = call id on finess
+
+
+
+
+
+
+
+
+
+
+
+ #Customer Satisfaction  - good
+Internal customer satisfied. Successfully completed 2 production deployment of JHHC CAID and PDP Phase 2. Got the 2 appreciations mails for my task in 
+TMG IVR Project from my Manager. For JHHC CAID recieved appreciations mail from CIM Management team. Did not received any escalations after production 
+deployment. Solved many Tickets from Service Now and did Unit Testing of TMG IVR Projects independently. In last quarter did 3 production deployment 
+of MAPD Phase 1 , MAPD Phase 2 and CFM UUP OHP.
+
+ #Quality of coding - need improvement
+ Delivered PDP Phase 2 and JHHC C project on Time and Budget, as per the baselined project plan. No defect after Post Deployment of all projects. No 
+Slippage in Tasks. Done 100% Delivery of tasks as per the planned dates & cost with high quality. Did development and Unit testing as per the SDLC by 
+preparing test cases before due date as per the plan. Prepared deployment documentation before due date for production deployment. 
+ 
+ #SLA Adherence - good going on
+ Followed the policy of closing the tickets before due date as per the adherence to agreed SLA. There is no SLA missed case yet. I have closed 71 
+tickets till now and around 40 tickets were transferred to respective teams(Telecom , Facets) after providing the information related to IVR. There 
+were no defects , no missed tickets and no escalations reported after closing the tickets. Also, no defects was reopened. 
+ 
+ #Inovation index - required more effort
+ Contributed in the development of POC Disclaimer project by using ICM scripts and IVR application. Did the Unit testing by preparing the test cases 
+as per the SDLC . Also worked with Telecom team for POC Disclaimer's issue.
+ 
+ #CoE contribution
+  Contributed in "Genc Recruitment" process by taking the interview of Genc students. Received cheers points as awards from Human Resource.
+  
+ # T & C - certificate required
+ Participated and completed "Unified CVP Development and Scripting Part 1" training from Sunset Learning institute provided by Cognizant. Completed 
+"Collaboration Specialist Training" from CISCO provided by Cognizant. Completed JDBC course from Cognizant Learning. Certificate completion is in 
+progress.
+ 
+ #Operational - good
+ Following the working hour policy and maintaining a good "Average Time" in both TruTime and Time Sheet.It is always 100% or more than 100%.  
