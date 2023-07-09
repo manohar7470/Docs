@@ -1,0 +1,54 @@
+package com.jdbc.demo;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+public class SelectAllRowsDemo {
+
+	public static void main(String[] args) throws Exception{
+		// TODO Auto-generated method stub
+		 
+			Class.forName("com.mysql.jdbc.Driver");  
+			Connection con=DriverManager.getConnection(  
+			"jdbc:mysql://localhost:3306/manohardb","root","root");  
+			//here sonoo is database name, root is username and password  
+			Statement stmt=con.createStatement();  
+			ResultSet rs=stmt.executeQuery("select * from employees");  
+			while(rs.next())  
+			System.out.println(rs.getInt(1)+"  "+rs.getString(2)+"  "+rs.getDouble(3)+"  "+rs.getString(4));
+		/*
+		 * String insertData = "INSERT INTO employees(" +
+		 * "eno, ename, esal, eaddr) VALUES " + "(700, 'KL', 6000.00, 'Hyderabad')";
+		 */
+		/*
+		 * int i = stmt.executeUpdate(insertData);
+		 * System.out.println("Rows inserted: "+i);
+		 */
+			 String updateData = "UPDATE employees SET ename='Jos'WHERE eno=300";
+			 stmt.executeUpdate(updateData);
+		      ResultSet res=stmt.executeQuery("select * from employees");  
+				while(res.next())  
+				System.out.println(res.getInt(1)+"  "+res.getString(2)+"  "+res.getDouble(3)+"  "+res.getString(4));
+				
+
+			con.close();  
+			} 
+	}
+
+
+
+
+
+
+
+
+
+create table employees(eno int(5) primary key, ename varchar(10), esal double(10,2),eaddr varchar(10));
+insert into employees values(100, 'Kohli', 1000, 'Delhi');
+insert into employees values(200, 'Dhoni', 2000, 'Ranchi');
+insert into employees values(300, 'Sachin', 3000, 'Mumbai');
+insert into employees values(400, 'Rohit', 4000, 'Mumbai');
+insert into employees values(500, 'Sehwag', 5000, 'Delhi');
+
+
+
